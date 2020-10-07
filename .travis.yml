@@ -1,2 +1,4 @@
 language: c
-script: gcc hello.c -o hello
+script:
+- gcc hello.c -o hello
+- ./hello
